@@ -1,0 +1,502 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set Final project
+ * Tjitske Lohstroh
+ *
+ * Global CSS.
+ */
+
+@charset "UTF-8";
+
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+	
+.labelwidth{
+    width: 40px;
+}
+/************************ styles for admin page *******************/
+
+/***** Styles the admin navigation bar *****/
+#admin_nav{
+    width:218px;
+    height: auto;
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #f1f1f1
+    float: left;
+}
+
+#admin_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   /* width: 120px;*/
+    background-color: #f1f1f1;
+    border: 1px solid white;
+}
+/* styles the admin navigation bar items */
+#admin_nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    font-size:14px;
+    border: 1px solid white;
+}
+
+/* Change the link color on hover */
+#admin_nav li:hover {
+    background-color: #37BFFA;
+    color: white;
+}
+	
+	
+/***** Styles the admin forms *****/
+
+/*General styling admin forms*/
+.admin-forms{
+    display: inline-block;
+    height: auto;
+    vertical-align:top;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 650px; 
+    border: 1px solid #666;
+    border-radius: 10px 10px 10px 10px;  
+    padding: 30px; 
+    /*float:right;*/
+    margin-left: 10px;
+}	
+/* makes a group of fiels be displayed inline*/
+.form-group{
+    display: inline;
+ 
+}
+
+/* separates a family of form fields*/
+.form-family{
+    margin-bottom: 30px;
+}
+
+/* styles the indivual form fields*/
+.form-control{
+    margin-bottom:10px;
+    margin-right:6px;
+}
+/* Styles the field labels */
+.form-group label {
+    float: left;
+    text-align: left;
+    font-weight: normal;
+    width: 110px;
+    height: 30px;
+    padding-top:8px;
+    font-weight: bold;
+}
+
+/* Styles the drop down fields */
+.form-group select {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+/* Styles the input fields*/
+.form-group input {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+}
+
+/* Styles text area*/
+textarea{
+    width: 400px !important;
+    height: 200px !important 
+}
+
+/* Makes an input field wide*/
+.wide-input-field{
+    width: 400px !important;
+}
+
+/* Makes an input field narrow*/
+.narrow-input-field{
+    width: 70px !important;
+}
+	
+
+
+
+
+	
+body {
+	background-image:url(../afbeeldingen/achtergrond-body.png);
+	background-repeat: repeat-x;
+	background-color: #1B1B1B;
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+	padding-top: 0px;
+	position: relative;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	
+}
+.container #header {
+	margin-bottom: 10px;
+	overflow: auto;
+}
+.container #header .topnav li {
+	display: inline;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #666;
+	padding-right: 10px;
+	padding-left: 10px;
+	letter-spacing: 1px;
+}
+.topnav {
+	float: right;
+	background-color: #252525;
+	margin-top: 8px;
+	color: #FFF;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-style: normal;
+}
+.container #header #logo {
+	height: 120px;
+	width: 218px;
+	background-image: url(../afbeeldingen/JAZZCINATIONLOGO-HEADER3.jpg);
+	background-color: black;
+	background-position: bottom;
+}
+.container #header #mainnav{
+	height: 38px;
+	/* [disabled]margin-top: 53px; */
+	width:740px;
+	padding-left: 10px;
+	border: 1px solid #333;
+	position: absolute;
+	left: 230px;
+	top: 80px;
+	right: 0px;
+	bottom: 0px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: #FFF;
+	background-image: url(../afbeeldingen/achtergrond-mainnav.png);
+	background-repeat: repeat-x;
+	background-position: center;
+	margin-left: 15px
+}
+.container #header #mainnav ul li{
+	display: inline;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "Arial Black", Gadget, sans-serif;
+	background-color: #FFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #333;
+	float: left;
+	margin-top: 7px;
+    margin-right: 11px;
+	margin-left: 7px;
+	padding-right: 16px;
+	font-size: 18px;
+	color: #000;
+    background-image: url(../afbeeldingen/achtergrond-mainnav.png);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+.container #photo {
+	height: 500px;
+	background-color: #000;
+	background-image: url(../afbeeldingen/20120826_0067%20kopie.jpg);
+}
+.container #content {
+	background-color: #FFF;
+	/*padding-top: 30px;
+	padding-left: 30px;*/
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 60px;
+	padding-right: 30px;
+}
+.container #content h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+.container #content h3 {
+	margin-top: 20px;
+}
+.container #content h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.container #content p {
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 10px;
+}
+
+
+.sidebarImage {
+	margin-bottom: 20px;
+}
+.container #content #article #tekstvakhome h1 {
+	margin-bottom: 20px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 30px;
+}
+.container #content #article #tekstvakhome p {
+	line-height: 20px;
+	margin-bottom: 20px;
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.container #content #article {
+	margin: 30px;
+	width: 660px;
+    border: 1px solid #666;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    overflow: auto;
+    padding: 30px;
+    display: inline-block;
+}
+.container #content #article p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	margin-bottom: 10px;
+	color: #333;
+	margin-right: 30px;
+	margin-left: 0px;
+}
+.container #content #sidebar {
+	width: 210px!important;
+	float: right!important;
+	/*margin-left: 30px;*/
+	border-radius: 10px 10px 10px 10px;
+	padding-top: 30px!important;
+	padding-right: 20px!important;
+	padding-bottom: 20px!important;
+	padding-left: 20px!important;
+	background-repeat: repeat-x!important;
+}
+.container #content #sidebar h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+.container #content #sidebar img {
+	margin-right: auto;
+	margin-left: auto;
+}
+#nextshow   {
+	float: right;
+	padding: 30px;
+	/* [disabled]background-color: #000; */
+	color: #FFF;
+	width: 210px;
+	border-radius: 10px 10px 10px 10px;
+	text-transform: uppercase;
+	display: inline;
+}
+.container #content #nextshow p {
+	margin-top: 15px;
+	margin-bottom: 19px;
+	color: #B9AB18;
+}
+
+.container #content #agendaPreview {
+	height: auto;
+	margin-left: auto;
+	border: 1px solid #666;
+	/* [disabled]margin-top: 100px; */
+	border-radius: 10px 10px 10px 10px;
+	padding: 30px;
+	width: 600px;
+	float: left;
+	display: inline;
+}
+.kleurkop {
+	color: #B9AB18;
+}
+.container #footer {
+	color: #FFF;
+	background-color: #000;
+	width: 970px;
+	padding: 30px;
+	font-family: Tahoma, Geneva, sans-serif;
+	overflow: auto;
+	letter-spacing: 1px;
+	z-index: 10;
+}
+.footerbox {
+	width: 200px;
+	float: left;
+	margin-left: 21px;
+	line-height: 20px;
+	margin-bottom: 50px;
+}
+.container #copyright {
+	color: #333;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	text-align: left;
+}
+.container #header #mainnav ul li a:link {
+	color: #000;
+	text-decoration: none;
+}
+.container #header #mainnav ul li a:visited {
+	color: #000;
+}
+.container #header #mainnav ul li a:hover {
+	color: #B9AB18;
+	text-decoration: none;
+}
+.container #content #article #Vuller {
+	height: 230px;
+}
+
+a:link {
+	color: #999;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #999;
+}
+a:hover {
+	text-decoration: none;
+	color: #B9AB18;
+}
+a:active {
+	text-decoration: none;
+	color: #B9AB18;
+}
+
+.topPhotoSidebar {
+	margin-top: 30px;
+}
+
+.container #photo h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 70px;
+	color: #FFF;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+.container #banner-fade {
+	height: 500px;
+	background-image: url(img/banner01.jpg);
+}
+
+.horizontaleLijn {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.sideItems
+ {
+	margin-bottom: 30px;
+	margin-left: 40px;
+}
+.colorboxYellow {
+    margin-top: 30px;
+	background-color: #B8AC18;
+	color: #333;
+}
+.colorboxBlack {
+    margin-top: 30px;
+	background-color: #000;
+	color: #CCC;
+	text-align: center;
+}
+.colorboxBlue {
+    margin-top: 30px;
+	background-color: #136095;
+	color: #000;
+}
+
+/************************ styles for agenda *******************/
+
+.gigs {
+    overflow: hidden;
+    margin: 0px 0px 80px;
+}
+#article .gig-box{
+    margin-top: 70px;
+}
+
+.gigs .gig-image{
+    display: inline-block;
+    width: 150px;
+    max-width: 100%;
+    height: auto !important;
+    margin: 0px auto 20px;
+}
+
+.gigs .gig-info {
+    width: 70%;
+    float: right;
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.gigs .gig-title {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+    }
+.gigs dt {
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    border-bottom: 1px solid #999;
+    margin: 0px 0px 5px;
+    }
+    
+.gigs dd, .gigs dd p {
+    margin: 0px 0px 20px;
+    }
+
+#slideshow {
+	position: relative;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	height: 500px;
+	background-image: url(../img/banner01.jpg);
+		}
+		
+		#slideshow > div {
+	position: absolute;
+		}
+}	
+
+
+
+	
