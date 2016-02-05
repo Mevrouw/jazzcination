@@ -4,9 +4,9 @@
 
     <head>
 
-        <link href="/css/bootstrap.min.css" rel="stylesheet"/> 
-        <link href="/css/bootstrap-theme.min.css" rel="stylesheet"/>
-        <link href="/css/styles.css" rel="stylesheet" type="text/css"/>  
+        <link href="../public/css/bootstrap.min.css" rel="stylesheet"/> 
+        <link href="../public/css/bootstrap-theme.min.css" rel="stylesheet"/>
+        <link href="../public/css/styles.css" rel="stylesheet" type="text/css"/>  
         <style type="text/css"></style>
         <link rel="shortcut icon" href="../afbeeldingen/favicon-noot.ico" type="image/png"/>
 
