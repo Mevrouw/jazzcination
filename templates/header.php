@@ -16,10 +16,10 @@
             <title>Jazzcination-home</title>
         <?php endif ?>
 
-        <script src="/js/jquery-1.11.1.min.js"></script>
-        -<script src="/js/bootstrap.min.js"></script>
+        <script src="../public/js/jquery-1.11.1.min.js"></script>
+        -<script src="../public/js/bootstrap.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-        <script src="/js/scripts.js"></script>
+        <script src="../public/js/scripts.js"></script>
 
     </head>
 
