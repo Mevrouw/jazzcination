@@ -11,7 +11,7 @@
         <fieldset>
             <div class="form-group">
                 <label>Titel</label>
-                <input autocomplete="on" autofocus class="form-control wide-input-field" placeholder = "bv: Jazz marathon!" name="gigtitle" "type="text"/>
+                <input autocomplete="on" autofocus class="form-control wide-input-field" placeholder = "bv: Jazz marathon!" name="gigtitle" type="text"/>
             </div>
         </fieldset>
     </div>  
@@ -70,8 +70,8 @@
                 <select autofocus class="form-control" name="year">
                     <option disabled selected value="" >Jaar</option>
                         <?php
-                        $year = 2013;
-                        // $year = date("Y");
+                        // $year = 2013;
+                        $year = date("Y");
                         for($i=0; $i<5; $i++)
                         {
                             print("<option value='{$year}'> {$year} </option>\n");

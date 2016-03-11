@@ -11,7 +11,7 @@
         <fieldset>
             <div class="form-group">
                 <label>Titel</label>
-                <input autocomplete="on" autofocus class="form-control wide-input-field" placeholder = "bv: Jazz marathon!" name="gigtitle" "type="text"/>
+                <input autocomplete="on" autofocus class="form-control wide-input-field" placeholder = "bv: Jazz marathon!" name="gigtitle" type="text"/>
                 <span class="error">* <?php echo $gigtitleErr;?></span>
             </div>
         </fieldset>
